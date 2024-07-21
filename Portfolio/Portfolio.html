@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body >
+<!-------------------Side navbar-------------------------------------->
+    <div class="nav" >
+        <div class="logo">Gowtham
+            <button class="reponse btn">
+                <span></span>
+                <span></span>
+                <span></span></button></div>
+        <div class="listdiv hide"><ul>
+         <li><a href="#head"><i class="fa-solid fa-house"></i>&nbsp;Home</a></li>
+         <li><a href="#about"><i class="fa-solid fa-user"></i>&nbsp;About me</a></li>
+         <li><a href="#education"><i class="fa-solid fa-user-graduate"></i>&nbsp;Education</a></li>
+         <li><a href="#skills">Skills</a></li>
+         <li><a href="#address"><i class="fa-solid fa-location-dot"></i>&nbsp;Address</a></li>
+         <li><a href="#websites"><i class="fa-solid fa-globe-pointer"></i>&nbsp;Websites</a></li>
+        </ul></div>
+    </div>
+
+    <!-------------------Main page-------------------------------------->
+     
+<header id="head">
+     <div class="mode">
+         <button class="dark btn" onclick=" dark()"><i class="fa-solid fa-moon"></i></button> 
+       <button class="light btn" onclick="light()"><i class="fa-solid fa-sun"></i></button>
+    </div>
+    <div class="imgbox">
+        <img src="gowtham1.jpg" alt="Gowtham image" height=250px" width="250px" >
+     </div>
+    <div class="main" >  
+           <h1>Hi, I'm <br>GOWTHAM THANGAVEL </h1>
+           <h2 id="fd ">FRONTEND DEVELOPER</h2>
+     </div>       
+    <div class="file">
+     <div class="resume option" onclick="cv()">Resume</div>
+     <div class="hire option">Hire Me</div>
+    </div>
+</header>
+    
+<!-------------------About myself-------------------------------------->
+<div class="about" id="about">
+    <h1 class="aboutmeh1">About me</h1>
+     <div class="para"><p>I'm Gowtham Thangavel,a recent B.E graduate in the department of <b> computer science </b> at AVS Engineering College. <br><br> I'm a <b> frontend developer </b> with strong communication skills and a knack for problem-solving. Proficient in HTML, CSS, JavaScript, and frameworks like React, I excel in translating concepts into intuitive user interfaces. I thrive in collaborative environments, effectively articulating ideas and solutions to teams and stakeholders. <br> My passion for continuous learning drives me to stay updated with the latest technologies and industry trends. Detail-oriented and dedicated, I approach each project with a focus on delivering high-quality, user-centric solutions. I enjoy tackling challenges head-on, leveraging my skills to create engaging digital experiences that meet both user needs and business goals.  Eager to learn and grow, I committed to  contributing in innovative projects.Let's collaborate to create impactful web solutions that inspire and delight users. </p></div>
+</div>
+
+ <!-------------------Education-------------------------------------->
+<div class="education" id="education" >
+    <div class="college edu">
+        <h1 class="educationh1">Education</h1>
+        <h1>Bachelor of Engineering </h1>
+        <h2>at AVS Engineering College,Salem</h2>
+        <h3>2019-2024</h3>
+        <h3 class="score">77%</h3>
+        <div class="outer">
+            <div class="score77 inner"></div>
+        </div>
+    </div>
+    <div class="hs edu">
+        <h1>Higher Secondry</h1>
+        <h3>Govt Model School,Konganapurm</h3>
+        <h3 class="score" >61%</h3>
+        <div class="outer">
+            <div class=" score61 inner"></div>
+        </div>
+    </div>
+    <div class="sslc edu">
+        <h1>SSLC</h1>
+        <h3>at Govt Model School</h3>
+        <h3 class="score">89%</h3>
+        <div class="outer">
+            <div class="score89 inner"></div>
+        </div>
+    </div>
+</div>
+
+  <!-------------------Skills-------------------------------------->
+<div class=" skills" id="skills">
+    <div class="skillsh1"><h1 >Technical skills</h1></div>
+     
+    <div class="frontend">
+    <div class="html box"><i class="fa-brands fa-html5"></i></div>
+    <div class="css box"><i class="fa-brands fa-css3-alt"></i></div>
+    <div class="js box"><i class="fa-brands fa-js"></i></div>
+    </div>
+    <div class="skillcontainer">
+    <div class="bootrap "><i class="fa-brands fa-bootstrap"></i></div>
+    <div class="c "><i class="fa-solid fa-c"></i></div>
+ </div>
+</div>
+
+ <!-------------------Address-------------------------------------->
+
+ <div class="address" id="address" >
+    <h1 class="addressh1 ">Address</h1>
+     <div class="details"> 
+    <ul>
+  <li>Gowtham S/o Thangavel,</li>
+  <li>DOB:21/05/2002,</li>
+  <li>1/1,Puduppalayam,</li>
+  <li>Puduppalayam(P.O),</li>
+  <li>Edappadi(Tk),</li>
+  <li>Salem(Dt)-Pincode-636306,</li>
+  <li>Tamilnadu,India</li></ul>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3907.76934413556!2d77.89192727802568!3d11.63977894730483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba95784fc8f0c6b%3A0xda9ff687684ebc9e!2sVembaneri%20Ayyanarappan%20Temple!5e0!3m2!1sen!2sin!4v1721011500235!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  </div></div>
+   
+  
+  <!-------------------websites-------------------------------------->
+    <div class="footer">
+    <div class="webh1 "><h1>Websites</h1></div>
+    <div class="websites" id="websites">
+     <a href="mailto:gowthamthangavel1@gmail.com" class="Gmail"><i class="fa-solid fa-envelope"></i></a>
+     <a href="https://www.linkedin.com/in/gowthamthangavel/" class="Linkedin"><i class="fa-brands fa-linkedin"></i></a><br>
+     <a href="https://github.com/dashboard" class="Github"><i class="fa-brands fa-github"></i></a>
+     <a href="https://www.youtube.com/@gowthamthangavel4140" class="youtube"><i class="fa-brands fa-youtube"></i></a>
+
+    </div></div>
+
+
+    <script src="C:\Users\Barani\Desktop\Frontend\portfolio\script.js"></script>
+</body>
